@@ -145,12 +145,14 @@ var score = 74
 
 */
 
-//CODE HERE
+// var changeMyMind = false
+// {console.log (changeMyMind)}
 
 
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
-//CODE HERE
+// var changeMyMind = false
+// {console.log (!(changeMyMind))}
 
 
 
@@ -165,14 +167,15 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
   Create a variable named 'problem9' and set it equal to the fifth value of the 'myFavoriteNumbers' array.
 */
 
-//Code Here
+// var problem9 = myFavoriteNumbers[5]
+// console.log (problem9)
 
 
 
 // Subscripting an array can fail. What happens if you subscript to the 7th element, but there are not 7 elements in the array? Now, use an if statement to help make sure you have the correct amount of elements, and then reset your variable, 'problem9' to the value of the 7th element in the array.
 
-//Code Here
-
+// var problem9 = myFavoriteNumbers.push (28,32,36)
+// console.log (problem9)
 
 ////////// PROBLEM 12 //////////
 
@@ -182,8 +185,11 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 // Use a for-loop to iterate through 'listOfNumbers', then check to see if the number is divisible by 3. If it is, console.log '{number} is divisible by 3.'
 
-//Code Here
-
+var listOfNumbers 
+for (i=0; i<11; i++); {
+  if ((listOfNumbers[i] % 3) === 0)
+  console.log ('{listOfNumbers} is divisble by 3.')
+}
 
 ////////// PROBLEM 13 //////////
 // Do not edit the code below.
@@ -194,8 +200,9 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
   Loop backwards, starting at the end of the 'letters' array. Console-log every item in the array.
 */
 
-//Code Here
-
+// for (let i=4; i>=0; i--) {
+// console.log (letters[i])
+// }
 
 ////////// Advanced Problems //////////
 
@@ -216,7 +223,25 @@ If F: "The student is failing."
 If the letter grade is not one of the above letters, console.log 'Not an eligible grade.'
 */
 
-//Code Here
+// switch (letterGrade){
+//   case 'A': 
+//   console.log ("The student is doing excellently")
+//     break;
+//   case 'B':
+//   console.log ("The student is doing well")
+//     break;
+//   case 'C':
+//   console.log ("The student is doing alright")
+//     break;
+//   case 'D':
+//     console.log ("The student is not doing well")
+//     break;
+//   case 'E':
+//     console.log ("The student is failing")
+//     default:
+//       console.log("you suck")
+// }
+
 
 
 
